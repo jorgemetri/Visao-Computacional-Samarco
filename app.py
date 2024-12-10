@@ -16,10 +16,17 @@ def Logo(url):
 st.set_page_config(layout="wide")
 modelo1 =  st.Page("model/model.py",title="Modelo",icon=":material/dashboard:")
 aplication = st.Page("aplication/aplication.py",title="Aplicação",icon=":material/dashboard:")
+test = st.Page("test.py",title="test")
 
+def Logo(url):
+    st.logo(
+        url,
+        link="https://streamlit.io/gallery",size="large"
+    )
 
-LOGO_URL_LARGE="log1.png"
-#Logo(LOGO_URL_LARGE)
+LOGO_URL_LARGE="./samarco.png"
+Logo(LOGO_URL_LARGE)
+
 
 pg = st.navigation(
     {

@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+altair
+streamlit-extras
+opencv-python-headless
+ultralytics
+openpyxl
